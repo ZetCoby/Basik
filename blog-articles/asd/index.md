@@ -1,6 +1,7 @@
 ---
 title: Hello
 slug: home
+tags: ['test','test2']
 ---
 # testing markdown here, this is a test article
 

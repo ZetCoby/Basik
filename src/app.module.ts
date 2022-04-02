@@ -3,8 +3,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import config from '../config/config'
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ArticleController } from './article/article.controller';
-import { ArticleService } from './article/article.service';
+import { ArticleController } from './controllers/article.controller';
+import { ArticleService } from './services/article.service';
 
 @Module({
   imports: [ConfigModule.forRoot({
